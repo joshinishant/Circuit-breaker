@@ -3,7 +3,8 @@ Circuit-breaker repository contains two Spring boot projects -
 2. GatewayApplication - This application wraps endpoints exposed by EmployeeRegistration application with Circuit-breaker pattern using Resilince4j
 
 
-Below are the rest endpoint exposed by Gateway Application
+Rest endpoints exposed by Gateway Application - 
+
 	1. Create an employee (POST)
 		Endpoint - '/gateway'
 		Payload Structure-	
